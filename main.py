@@ -209,7 +209,7 @@ while True:
         #print(int((illumination / 100) * 1023))
         #bl.duty(int((illumination / 100) * 1023))
 
-        if WEB_version == True:
+        if True:
             #read buttons:
             keys = LED.keys()
             if (keys & 0x08) == 0:
