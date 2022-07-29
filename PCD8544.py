@@ -88,7 +88,7 @@ class PCD8544:
 		self.addressing(horizontal)
 		self.contrast(contrast, bias, temp)
 		self.cmd(DISPLAY_NORMAL)
-		self.clear()
+		#self.clear()
 
 	def reset(self):
 		# issue reset impulse to reset the display
